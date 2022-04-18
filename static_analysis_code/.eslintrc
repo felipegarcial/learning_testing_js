@@ -1,0 +1,17 @@
+{
+    "parserOptions":{
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "extends": [
+        "eslint:recommended",
+        "prettier"
+    ],
+    "rules": {
+        "no-console":"off",
+        "prefer-template":"error"
+    },
+    "env": {
+        "browser": true
+    }
+}
